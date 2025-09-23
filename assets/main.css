@@ -12,7 +12,9 @@ footer {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
 }
 main {
-    max-width: 700px;
+    width: 80vw;
+    max-width: 1200px;
+    min-width: 300px;
     margin: 2em auto;
     background: #fff;
     padding: 2em;
@@ -25,4 +27,29 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+
+nav {
+    margin: 1em 0 0.5em 0;
+}
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 2em;
+}
+.nav li {
+    display: inline;
+}
+.nav a {
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+    font-weight: 500;
+    transition: border-color 0.2s;
+}
+.nav a.active,
+.nav a:focus,
+.nav a:hover {
+    border-bottom: 2px solid #0366d6;
 }
