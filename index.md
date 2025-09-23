@@ -1,3 +1,8 @@
-# Welcome to My GitHub Page
+---
+layout: default
+title: Home
+---
 
-This is a simple Jekyll-based site.
+# Welcome to My Portfolio
+
+This is a simple portfolio.
